@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
+  "engines": {
+    "node": ">=14.21.2"
+  },
   "scripts": {
     "clean":"rimraf ./dist",
     "build":"yarn clean && tsc",
